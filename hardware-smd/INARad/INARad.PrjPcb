@@ -39,24 +39,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Modem.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WWMRCUTL
-
-[Document2]
-DocumentPath=..\Library\SA818.PcbLib
+DocumentPath=..\..\hardware\Library\Antenna.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,8 +55,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
-DocumentPath=..\Library\SA818.SchLib
+[Document2]
+DocumentPath=..\..\hardware\Library\arduinoNano.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -87,10 +70,27 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WGDEGCON
+DocumentUniqueId=ODREBIJD
+
+[Document3]
+DocumentPath=..\..\hardware\Library\arduinoNano.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KYTPTXRU
 
 [Document4]
-DocumentPath=..\Library\BatteryHolder18650.PcbLib
+DocumentPath=..\..\hardware\Library\BatteryHolder18650.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -107,7 +107,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=..\Library\BatteryHolder18650.SchLib
+DocumentPath=..\..\hardware\Library\BatteryHolder18650.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -121,10 +121,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YLVOHMMF
+DocumentUniqueId=
 
 [Document6]
-DocumentPath=..\Library\BoostConverterModules.PcbLib
+DocumentPath=..\..\hardware\Library\BoostConverterModules.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -141,7 +141,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
-DocumentPath=..\Library\BoostConverterModules.SchLib
+DocumentPath=..\..\hardware\Library\BoostConverterModules.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -155,10 +155,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HUDMHLWY
+DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\Library\arduinoNano.PcbLib
+DocumentPath=..\..\hardware\Library\CON-SMA-EDGE062.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -172,10 +172,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ODREBIJD
+DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\Library\arduinoNano.SchLib
+DocumentPath=..\..\hardware\Library\SA818.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -189,10 +189,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KYTPTXRU
+DocumentUniqueId=BBXFMOPK
 
 [Document10]
-DocumentPath=..\Library\Antenna.SchLib
+DocumentPath=..\..\hardware\Library\SA818.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -206,16 +206,16 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FEIGDXNU
+DocumentUniqueId=WGDEGCON
 
 [Document11]
-DocumentPath=..\Library\CON-SMA-EDGE062.PcbLib
+DocumentPath=Modem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -223,7 +223,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FNGLHQLO
+DocumentUniqueId=LWRQDEPW
 
 [Document12]
 DocumentPath=Modem.PcbDoc
@@ -240,7 +240,45 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YJYQJUQY
+DocumentUniqueId=IIXKHWFQ
+
+[Document13]
+DocumentPath=RaspberryPiZeroW.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NXICDAGV
+
+[Document14]
+DocumentPath=RaspberryPiZeroW.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CWLTVYDL
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for INARad\Design Rule Check - Modem.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
